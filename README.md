@@ -1,4 +1,4 @@
-# BA-Plotter
+# baplot
 
 This Shiny app will allow the user to create a Bland-Altman plot (BA plot; Bland & Altman, 1999) using the example data or a csv file of their data. In comparison to existing BA plot Shiny apps, the current app will allow the user to colour data points from different trials.
 
