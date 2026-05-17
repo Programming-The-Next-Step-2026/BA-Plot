@@ -1,0 +1,26 @@
+{
+    "id": "0F24D1F9",
+    "path": "~/Desktop/0516/baplot/tests/testthat/test-plotting-function.R",
+    "project_path": "tests/testthat/test-plotting-function.R",
+    "type": "r_source",
+    "hash": "915845941",
+    "contents": "",
+    "dirty": false,
+    "created": 1779028590645.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "0,36",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1779029456,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1779029456287,
+    "read_only": false,
+    "read_only_alternatives": []
+}
