@@ -4,7 +4,7 @@
 #' @details Plot the Bland-Altman plot
 #' @importFrom dplyr mutate
 #' @importFrom lme4 lmer fixef
-#' @importFrom ggplot2 ggplot aes geom_point geom_hline annotate scale_x_continuous labs theme_classic ylim scale_colour_brewer expansion
+#' @import ggplot2
 #' @importFrom stats quantile sd
 #' @param data Dataset
 #' @param rater1 Scores from the first rater
