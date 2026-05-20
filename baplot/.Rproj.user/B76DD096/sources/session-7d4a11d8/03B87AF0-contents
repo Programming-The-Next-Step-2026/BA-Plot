@@ -1,4 +1,0 @@
-library(testthat)
-library(baplot)
-
-test_check("baplot")
