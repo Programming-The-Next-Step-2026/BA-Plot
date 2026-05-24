@@ -9,7 +9,7 @@
 Package that launches a Shiny app to create Bland–Altman plots for method comparison studies,
 }
 \details{
-Run runBA() to launch the Shiny app.
+Run runBA() to launch the Shiny app.usethis::use_vignette
 }
 \author{
 \strong{Maintainer}: Jane Doe \email{jane@example.com}

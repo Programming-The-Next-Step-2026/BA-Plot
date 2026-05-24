@@ -14,3 +14,8 @@ I aim to make the plots interactive, such that if you hover over a point, it wil
 
 Citations:
 Bland, J. M., & Altman, D. G. (1999). Measuring agreement in method comparison studies. Statistical Methods in Medical Research, 8(2), 135–160. https://doi.org/10.1177/096228029900800204
+
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/Programming-The-Next-Step-2026/baplot/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Programming-The-Next-Step-2026/baplot/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
