@@ -2,7 +2,7 @@
 #'
 #' Package that launches a Shiny app to create Bland–Altman plots for method comparison studies,
 #'
-#' Run runBA() to launch the Shiny app.usethis::use_vignette
+#' Run runBA() to launch the Shiny app.
 #'
 #' @docType package
 #' @name baplot
