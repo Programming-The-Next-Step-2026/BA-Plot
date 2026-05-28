@@ -4,6 +4,11 @@ This Shiny app will allow the user to create a Bland-Altman plot (BA plot; Bland
 
 The primary plot will be the basic Bland-Altman plot (Bland & Altman, 1999; Figure 3). It will feature the difference of two raters plotted against the average of the two raters. The user can choose to display the mean and limit of agreement. The user can further choose to display the trial adjusted mean bias and the mean per trial. 
 
+Install package with:
+```r
+devtools::install_github("Programming-The-Next-Step-2026/baplot/baplot", build_vignettes = TRUE, force = TRUE)
+```
+
 
 
 Citations:
