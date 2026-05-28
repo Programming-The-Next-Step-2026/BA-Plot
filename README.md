@@ -18,4 +18,4 @@ Bland, J. M., & Altman, D. G. (1999). Measuring agreement in method comparison s
   <!-- badges: start -->
   [![R-CMD-check](https://github.com/Programming-The-Next-Step-2026/baplot/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Programming-The-Next-Step-2026/baplot/actions/workflows/R-CMD-check.yaml)
   <!-- badges: end -->
-  s
+ 
