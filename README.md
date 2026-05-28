@@ -4,12 +4,6 @@ This Shiny app will allow the user to create a Bland-Altman plot (BA plot; Bland
 
 The primary plot will be the basic Bland-Altman plot (Bland & Altman, 1999; Figure 3). It will feature the difference of two raters plotted against the average of the two raters. The user can choose to display the mean and limit of agreement. The user can further choose to display the trial adjusted mean bias and the mean per trial. 
 
-In addition to the primary Bland-Altman plot, users will have the option to create a regression plot (to inspect systematic bias) and a ratio Bland-Altman plot (to correct for associations between the difference and the mean). 
-
-I aim to make the plots interactive, such that if you hover over a point, it will display which trial the data point is from. Similarly, if you hover over a line representing the mean, it will tell you the value of the mean. Further features may be added if time permit. 
-
-
-
 
 
 Citations:
