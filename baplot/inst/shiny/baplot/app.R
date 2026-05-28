@@ -10,19 +10,24 @@ library(baplot)
 #-------------------------------------------------------#
 #   0- GENERATE EXAMPLE DATA                            #
 #-------------------------------------------------------#
-trial_props <- c(1, 2, 1, 3, 1)
+trial_props  <- c(1, 2, 1, 3, 1)
 trial_counts <- round(trial_props / sum(trial_props) * 500)
-trial_counts[5] <- 500 - sum(trial_counts[1:4]) # Ensure total is 500
+trial_counts[5] <- 500 - sum(trial_counts[1:4])
+
+# have trial offset so mean bias and adjusted mean bias are different
+trial_offsets <- c(-1.5, -0.5, 0.5, 1.5, 2.5)
 
 set.seed(12345)
 example <- data.frame(
-    Trial = rep(1:5, times = trial_counts),
+    Trial        = rep(1:5, times = trial_counts),
     Participant_id = 1:500,
-    Scale1 = rnorm(500, mean = 1.27, sd = 1.28),
-    Scale2 = rnorm(500, mean = 2.08, sd = 1.91)
+    Scale1       = rnorm(500, mean = 1.27, sd = 1.28),
+    Scale2       = rnorm(500, mean = 2.08, sd = 1.91) +
+        rep(trial_offsets, times = trial_counts)
 )
 
-rm(trial_props, trial_counts)
+rm(trial_props, trial_counts, trial_offsets)
+
 
 
 
